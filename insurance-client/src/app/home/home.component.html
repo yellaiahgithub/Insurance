@@ -1,0 +1,127 @@
+<div class="home">
+    <div class="home-info">
+        <h2>Welcome to my website</h2>
+        <p>"Welcome to YSU Insurance! We are dedicated to providing you with the best insurance coverage and protection
+            for your needs. Our team of experienced professionals is committed to understanding your unique situation
+            and finding the right insurance solutions to meet your specific requirements. We offer a range of insurance
+            products, including auto, home, life, health, and business insurance, to help you protect what matters most.
+            Our goal is to provide you with excellent service and support, so you can have peace of mind knowing you are
+            in good hands. Thank you for choosing YSU Insurance Agency, and we look forward to serving you!"</p>
+        <p>we provide insurance policies and services to individuals and organizations. Insurance agencies act as
+            intermediaries between insurance companies and clients, helping clients to assess their insurance needs and
+            find suitable insurance policies that match their requirements.</p>
+        <p>We can offer a wide range of insurance types, such as auto, home, health, life, and business insurance. They
+            typically work with multiple insurance companies to offer clients a choice of policies and coverage options.
+        </p>
+        <p>Our agents in an agency work as representatives of the agency and help clients navigate through the insurance
+            process. They assess clients' insurance needs, explain policy terms, and help clients choose the best policy
+            for their specific needs. In return, agents receive a commission from the insurance company for each policy
+            they sell.</p>
+        <a href="#" class="cta">Learn More</a>
+    </div>
+    <div class="login">
+        <div class="data-body">
+            <div id="login" class="card login-card">
+                <h4 class="card-header">Login</h4>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Username</label>
+                            <input id="username-input" type="text" formControlName="username" class="form-control"
+                                required />
+                        </div>
+                        <div id="password" class="form-group">
+                            <label for="password">Password</label>
+                            <input id="password-input" type="password" formControlName="password" class="form-control"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <button id="proceed-button" type="submit" class="btn btn-primary" (click)="verifyEmail()">
+                                Proceed
+                            </button>
+                            <button id="login-button" type="submit" class="btn btn-primary" (click)="performLogin()">
+                                Login
+                            </button>
+                            <button type="button" class="btn btn-link" (click)="activateRegisterForm()">
+                                Register
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="signup" class="card signup-card">
+                <h4 class="card-header">Sign Up</h4>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="firstname">First Name</label>
+                            <input id="firstname-input" type="text" formControlName="firstname" class="form-control"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="lastname">Last Name</label>
+                            <input id="lastname-input" type="text" formControlName="lastname" class="form-control"
+                                required />
+                        </div>
+                        <div class="form-group">
+                            <label for="address">Address</label>
+                            <textarea id="address-input" type="text" formControlName="address" class="form-control"
+                                required></textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="age">Age</label>
+                            <input id="age-input" type="number" formControlName="age" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input id="email-input" type="text" formControlName="email" class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="phoneNumber">Phone</label>
+                            <input id="phone-number-input" type="number" formControlName="phoneNumber"
+                                class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message-input" type="text" formControlName="message"
+                                class="form-control"></textarea>
+                        </div>
+                        <div class="form-group">
+                            <button type="submit" class="btn btn-primary" (click)="createUser()">
+                                Submit
+                            </button>
+                            <button type="button" class="btn btn-link" (click)="showLoginForm()">
+                                Cancel
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="update-password" class="card update-password-card">
+                <h4 class="card-header">Create Password</h4>
+                <div class="card-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="username">Password</label>
+                            <input id="update-username-input" type="password" formControlName="username"
+                                class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Confirm Password</label>
+                            <input id="confirm-password-input" type="password" formControlName="password"
+                                class="form-control" required />
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary" (click)="updatePassword()">
+                                Create
+                            </button>
+                            <button type="button" class="btn btn-link" (click)="showLoginForm()">
+                                Cancel
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

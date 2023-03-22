@@ -1,0 +1,43 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+
+    .resources {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    .card {
+        flex-basis: 45%;
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px #ccc;
+        margin: 10px;
+    }
+
+    h2 {
+        margin-top: 0;
+    }
+
+    ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        list-style: none;
+        margin-bottom: 10px;
+    }
+
+    a {
+        color: #333;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #555;
+    }
+}

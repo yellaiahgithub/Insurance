@@ -1,0 +1,38 @@
+<div class="container">
+    <h2>Online Quote Form</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone">
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit" (onclick)="submitQuote()">Request Quote</button>
+    </form>
+
+    <div class="quote-process">
+        <h2>Explanation of Quote Process</h2>
+        <p>At YSU Insurance, we understand that every customer has unique insurance needs. That's why we offer
+            personalized insurance quotes to make sure you get the coverage you need at a price that fits your budget.
+        </p>
+        <p>Our quote process is simple and straightforward:</p>
+        <ol>
+            <li>Fill out our online quote form, providing us with some basic information about your insurance needs and
+                coverage preferences.</li>
+            <li>Our team of insurance experts will review your information and provide you with a personalized quote
+                tailored to your unique needs and circumstances.</li>
+            <li>If you're happy with the quote, you can purchase the insurance coverage directly through our website or
+                over the phone with one of our friendly agents.</li>
+        </ol>
+        <p>At YSU Insurance, we're committed to making the insurance process as simple and stress-free as possible.
+            That's why we offer a range of flexible payment options and 24/7 customer support to answer any questions
+            you may have.</p>
+
+    </div>
+</div>

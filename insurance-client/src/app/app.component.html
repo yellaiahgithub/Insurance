@@ -1,0 +1,18 @@
+<div class="main-page">
+  <app-header id="header"></app-header>
+  <div class="main-body">
+    <div class="nav-bar">
+      <nav>
+        <li routerLinkActive="selected-link"><a routerLink="/home">Home</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/about">About us</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/insurance">Insurance Product</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/quote">Get Quote</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/resource"> Resources</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/support">Customer Support</a></li>
+        <li routerLinkActive="selected-link"><a routerLink="/privacy">Privacy Policy and Terms of Use</a>
+      </nav>
+    </div>
+    <router-outlet></router-outlet>
+  </div>
+  <app-footer id="footer"></app-footer>
+</div>

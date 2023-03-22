@@ -1,0 +1,46 @@
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    height: 90%;
+    overflow: auto;
+
+    form {
+        background-color: #eee;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 10px;
+        width: 80%;
+    }
+
+    input,
+    textarea {
+        display: block;
+        margin-bottom: 20px;
+        width: 80%;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #ccc;
+    }
+
+    button {
+        background-color: #e15a5a;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #555;
+    }
+
+    .quote-process {
+        margin-top: 50px;
+    }
+}
